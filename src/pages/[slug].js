@@ -66,7 +66,7 @@ function Campaign({data}) {
 
                         <div className={styles.right}>
 
-                           {!IsSubmitted? <div className={styles.rightContents}>
+                           {!IsSubmitted ? <div className={styles.rightContents}>
 
                                 <form
                                 onSubmit={handleOnSubmit}
